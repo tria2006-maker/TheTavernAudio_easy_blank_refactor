@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c8381bc2-f911-4dd1-96d4-9f3fc44c71d5}">
+		<property name="assetPath">
+			<value>Door Open 1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.62501133786848073</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9fa54ccc-b328-4e45-ba10-e30fae1d71f9}</destination>
+		</relationship>
+	</object>
+</objects>

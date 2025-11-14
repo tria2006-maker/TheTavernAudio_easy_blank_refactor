@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{c03c536a-1506-4015-a324-013837c77371}">
+		<property name="name">
+			<value>Jump</value>
+		</property>
+		<relationship name="folder">
+			<destination>{79ae3e11-26cf-4b9a-843e-a37cdc6e9cb3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b233f07c-52cb-4b41-9d87-de48057d41b8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b233f07c-52cb-4b41-9d87-de48057d41b8}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

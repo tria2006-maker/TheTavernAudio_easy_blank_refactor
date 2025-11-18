@@ -181,6 +181,7 @@
 	<object class="MixerBusEffectChain" id="{8de805c3-8deb-4031-9aed-6d388d723b35}">
 		<relationship name="effects">
 			<destination>{51ccdb9a-8626-460f-95b2-b1cd9fec2184}</destination>
+			<destination>{144ec631-a169-4ac8-8d38-43a6ceb0e88b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6512c00f-f653-45df-aeee-b0adc2445afc}" />
@@ -213,7 +214,6 @@
 	<object class="MixerBusEffectChain" id="{a5685e5a-ab14-4bb7-9891-e79ae57cebe0}">
 		<relationship name="effects">
 			<destination>{0fc882e4-dfa3-400a-a664-a18fef935c4c}</destination>
-			<destination>{ca9986ac-2bc4-418a-bd42-e8618d566f63}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b19223e5-5f8a-4741-a1e2-e162da90cee2}" />
@@ -227,6 +227,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{51ccdb9a-8626-460f-95b2-b1cd9fec2184}" />
+	<object class="SpatialiserEffect" id="{144ec631-a169-4ac8-8d38-43a6ceb0e88b}" />
 	<object class="SingleSound" id="{9ffa9109-48d5-4063-80ce-9d4e151cf4ae}">
 		<property name="looping">
 			<value>true</value>
@@ -244,7 +245,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{0fc882e4-dfa3-400a-a664-a18fef935c4c}" />
-	<object class="SpatialiserEffect" id="{ca9986ac-2bc4-418a-bd42-e8618d566f63}" />
 	<object class="AutomationPoint" id="{e4596fdd-bb0d-41e7-8061-f8bc512a271d}">
 		<property name="position">
 			<value>0</value>

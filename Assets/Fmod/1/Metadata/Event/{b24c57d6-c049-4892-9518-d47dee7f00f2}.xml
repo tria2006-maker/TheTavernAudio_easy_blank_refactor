@@ -108,6 +108,9 @@
 		<property name="startOffset">
 			<value>47.5</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{da5c1133-ee5f-4063-8014-68daf307f78c}</destination>
 		</relationship>

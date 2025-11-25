@@ -125,9 +125,6 @@
 		<property name="name">
 			<value>Stone</value>
 		</property>
-		<property name="looping">
-			<value>true</value>
-		</property>
 		<relationship name="modulators">
 			<destination>{4fdc46df-4c34-45e6-8ec5-692a5975660b}</destination>
 			<destination>{edf6e793-d179-4dff-bf49-ce5870542712}</destination>
@@ -173,9 +170,6 @@
 		</property>
 		<property name="name">
 			<value>Wood</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{7f70c5c1-0935-44b2-92fb-51d0968c4929}</destination>

@@ -237,7 +237,7 @@ MonoBehaviour:
   Path: Assets/Fmod/1/Build/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 638990854475768707
+  lastModified: 638996952404534176
   FileSizes:
   - Name: Desktop
     Value: 90304
@@ -332,7 +332,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8131444633951974013}
   cacheVersion: 131856
-  cacheTime: 638990905500164824
+  cacheTime: 638996952404534176
   SerializableEventsDict:
   - key: event:/Interactio/sfx_fire
     index: 0

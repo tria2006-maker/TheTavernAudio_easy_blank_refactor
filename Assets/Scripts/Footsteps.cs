@@ -76,14 +76,14 @@ public class Footsteps : MonoBehaviour
     private void PlayFootsteps()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, distToGround + 0.5f))
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, distToGround + 1))
         {
             string surfaceTag = hit.collider.tag;
             PlaySurfaceSound(footstepsSoundInstance, footstepsEvent, surfaceTag);
         }
     }
 
-    /// <summary>
+    /// <summary>   
     /// Odtwarza dźwięk skoku.
     /// </summary>
     private void PlayJump()
@@ -91,7 +91,7 @@ public class Footsteps : MonoBehaviour
         if (IsGrounded())
         {
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, Vector3.down, out hit, distToGround + 0.5f))
+            if (Physics.Raycast(transform.position, Vector3.down, out hit, distToGround + 1))
             {
                 string surfaceTag = hit.collider.tag;
                 PlaySurfaceSound(jumpSoundInstance, jumpEvent, surfaceTag);
@@ -118,7 +118,7 @@ public class Footsteps : MonoBehaviour
     private void PlayLanding()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, distToGround + 0.5f))
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, distToGround + 1))
         {
             string surfaceTag = hit.collider.tag;
             PlaySurfaceSound(landSoundInstance, landEvent, surfaceTag);
@@ -154,7 +154,7 @@ public class Footsteps : MonoBehaviour
                 break;
 
             case "Bed":
-                surfaceParameter = "Bed";
+                surfaceParameter = "Wood";
                 break;
         }
 
@@ -164,7 +164,7 @@ public class Footsteps : MonoBehaviour
             soundInstance = RuntimeManager.CreateInstance(eventRef);
             soundInstance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject.transform));
             // Ustawia parametr FMOD na podstawie ustalonej wartości.
-            soundInstance.setParameterByNameWithLabel("Footsteps_surface", surfaceParameter); 
+            soundInstance.setParameterByNameWithLabel("Footstep_Surface", surfaceParameter); 
             soundInstance.start();
             soundInstance.release();
         }

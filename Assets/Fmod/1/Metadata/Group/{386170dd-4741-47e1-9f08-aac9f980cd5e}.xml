@@ -20,10 +20,17 @@
 	<object class="MixerBusEffectChain" id="{fcf6b383-f1fd-48b7-a075-1bc57059d4b3}">
 		<relationship name="effects">
 			<destination>{d8983465-5e80-406e-a509-6e72ff887b1d}</destination>
-			<destination>{c0510ad6-f0b1-4926-b79e-f9097058093d}</destination>
+			<destination>{7f292ea0-73df-436f-aad7-de79b77b5022}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{88998276-6bc2-40ba-bb1e-2ccbab260504}" />
 	<object class="MixerBusFader" id="{d8983465-5e80-406e-a509-6e72ff887b1d}" />
-	<object class="ThreeEQEffect" id="{c0510ad6-f0b1-4926-b79e-f9097058093d}" />
+	<object class="MultibandEqEffect" id="{7f292ea0-73df-436f-aad7-de79b77b5022}">
+		<property name="frequencyA">
+			<value>21999.9902</value>
+		</property>
+		<property name="qualityA">
+			<value>0.775126398</value>
+		</property>
+	</object>
 </objects>

@@ -41,10 +41,10 @@ MonoBehaviour:
   Path: Assets/Fmod/1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639015094217821637
+  lastModified: 639035769464049154
   FileSizes:
   - Name: Desktop
-    Value: 2120
+    Value: 2372
   Exists: 1
 --- !u!114 &-7642599544267817331
 MonoBehaviour:
@@ -416,7 +416,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8131444633951974013}
   cacheVersion: 131856
-  cacheTime: 639015094217821637
+  cacheTime: 639035769464049154
   SerializableEventsDict:
   - key: event:/Interactio/sfx_fire
     index: 0
@@ -639,10 +639,10 @@ MonoBehaviour:
   Path: Assets/Fmod/1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639015094217811638
+  lastModified: 639035769464034737
   FileSizes:
   - Name: Desktop
-    Value: 6324
+    Value: 7106
   Exists: 1
 --- !u!114 &5834881065800729618
 MonoBehaviour:

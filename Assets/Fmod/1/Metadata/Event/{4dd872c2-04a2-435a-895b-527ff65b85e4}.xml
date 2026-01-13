@@ -73,6 +73,9 @@
 		<relationship name="modules">
 			<destination>{dd9f369e-6220-4902-9a37-23234d2d8b6b}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{8827040d-3584-4f5b-8723-92219b69e885}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5317e9b5-a0de-46ff-bd20-d090127d0e97}">
 		<relationship name="modulators">
@@ -98,6 +101,9 @@
 		<property name="length">
 			<value>77.538479166666662</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{1d2b65be-4abe-4ce2-8710-22cdb87a29ad}</destination>
 		</relationship>
@@ -114,6 +120,20 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{5317e9b5-a0de-46ff-bd20-d090127d0e97}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{8827040d-3584-4f5b-8723-92219b69e885}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>77.538479166666662</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{13c5fcff-b0f0-4ae1-946b-e14aadbf403a}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{b49be54f-f4d1-4bac-8ead-c2f4bd860c7c}</destination>
 		</relationship>
 	</object>
 	<object class="ADSRModulator" id="{b327a306-94a7-40c7-8d2f-921e5bccc1af}">

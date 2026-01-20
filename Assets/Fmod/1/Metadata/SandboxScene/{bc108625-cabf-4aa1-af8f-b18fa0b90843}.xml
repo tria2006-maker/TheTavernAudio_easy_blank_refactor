@@ -23,19 +23,21 @@
 			<destination>{144e1aab-91a8-40ea-a96e-b50b4d814eb4}</destination>
 			<destination>{d18d6d1c-5ac9-4a25-96b0-49a6a869af06}</destination>
 			<destination>{2bf2064f-4873-4538-968f-019f5dfe6cd5}</destination>
+			<destination>{a59e4a29-216e-4e7a-87f7-77f6940bc4a7}</destination>
+			<destination>{82e2d386-d940-4987-ac29-e0bcfbb38225}</destination>
 		</relationship>
 	</object>
 	<object class="MarkerTrack" id="{b666b8be-7eca-442a-b6c1-62c4ea56ec7a}" />
 	<object class="Timeline" id="{52450ce5-31b1-4b13-a766-bf3234e872cc}" />
 	<object class="SandboxListener" id="{b2439fe5-86d3-4d97-afe8-cd6c08dbe148}">
 		<property name="positionX">
-			<value>-0.918094218</value>
+			<value>-0.564540803</value>
 		</property>
 		<property name="positionZ">
-			<value>1.01101816</value>
+			<value>1.50599289</value>
 		</property>
 		<property name="rotationY">
-			<value>-97.7755966</value>
+			<value>-174.322708</value>
 		</property>
 	</object>
 	<object class="SandboxEmitter" id="{7e157d45-369d-4af9-a5f7-61dd0f751998}">
@@ -114,6 +116,31 @@
 		</property>
 		<relationship name="event">
 			<destination>{7cea98c8-3762-45c8-9fe0-66f0d09b1082}</destination>
+		</relationship>
+	</object>
+	<object class="SandboxEmitter" id="{a59e4a29-216e-4e7a-87f7-77f6940bc4a7}">
+		<property name="positionX">
+			<value>-1.06066012</value>
+		</property>
+		<property name="positionZ">
+			<value>2.26274157</value>
+		</property>
+		<property name="rotationY">
+			<value>126.288994</value>
+		</property>
+		<relationship name="event">
+			<destination>{eb893a1c-0233-4489-8c08-0756d83e9fd9}</destination>
+		</relationship>
+	</object>
+	<object class="SandboxEmitter" id="{82e2d386-d940-4987-ac29-e0bcfbb38225}">
+		<property name="positionX">
+			<value>1.62634563</value>
+		</property>
+		<property name="positionZ">
+			<value>-1.55563498</value>
+		</property>
+		<relationship name="event">
+			<destination>{b2da4840-9be7-4463-acb3-af89ef0c6611}</destination>
 		</relationship>
 	</object>
 	<object class="SandboxParameter" id="{f34a0072-8d90-4831-abbd-c56b067e5d4e}">

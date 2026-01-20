@@ -41,10 +41,10 @@ MonoBehaviour:
   Path: Assets/Fmod/1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639035769464049154
+  lastModified: 639044540212060878
   FileSizes:
   - Name: Desktop
-    Value: 2372
+    Value: 2492
   Exists: 1
 --- !u!114 &-7642599544267817331
 MonoBehaviour:
@@ -66,6 +66,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 2159488
   Exists: 1
+--- !u!114 &-7489009756742290803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/HeartBeat
+  m_EditorClassIdentifier: 
+  Path: snapshot:/HeartBeat
+  Guid:
+    Data1: -343328228
+    Data2: 1149829683
+    Data3: 1443301516
+    Data4: -643875112
+  Banks:
+  - {fileID: 5452092922406833595}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-7127125452482157910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,10 +345,10 @@ MonoBehaviour:
   Path: Assets/Fmod/1/Build/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 638996952404534176
+  lastModified: 639044540214117294
   FileSizes:
   - Name: Desktop
-    Value: 90304
+    Value: 138944
   Exists: 1
 --- !u!114 &-486715466393586492
 MonoBehaviour:
@@ -410,13 +437,15 @@ MonoBehaviour:
   - {fileID: -7127125452482157910}
   - {fileID: -5079613036576232653}
   - {fileID: -2010793479334430937}
+  - {fileID: -7489009756742290803}
+  - {fileID: 47859406397442090}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5452092922406833595}
   StringsBanks:
   - {fileID: -8131444633951974013}
   cacheVersion: 131856
-  cacheTime: 639039225434879214
+  cacheTime: 639044540214117294
   SerializableEventsDict:
   - key: event:/Interactio/sfx_fire
     index: 0
@@ -444,6 +473,37 @@ MonoBehaviour:
     index: 11
   - key: snapshot:/Inside_Room
     index: 12
+  - key: snapshot:/HeartBeat
+    index: 13
+  - key: event:/Player/sfx_heartbeat
+    index: 14
+--- !u!114 &47859406397442090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/sfx_heartbeat
+  m_EditorClassIdentifier: 
+  Path: event:/Player/sfx_heartbeat
+  Guid:
+    Data1: -1294317504
+    Data2: 1147378663
+    Data3: -1984973908
+    Data4: 291900655
+  Banks:
+  - {fileID: -611550764329861632}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6730
 --- !u!114 &79242132271756305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -639,10 +699,10 @@ MonoBehaviour:
   Path: Assets/Fmod/1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639035769464034737
+  lastModified: 639044540212049237
   FileSizes:
   - Name: Desktop
-    Value: 7106
+    Value: 9694
   Exists: 1
 --- !u!114 &5834881065800729618
 MonoBehaviour:

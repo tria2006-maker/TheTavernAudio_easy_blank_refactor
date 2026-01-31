@@ -41,10 +41,10 @@ MonoBehaviour:
   Path: Assets/Fmod/1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639045332033256793
+  lastModified: 639054941081380815
   FileSizes:
   - Name: Desktop
-    Value: 2700
+    Value: 2740
   Exists: 1
 --- !u!114 &-7642599544267817331
 MonoBehaviour:
@@ -364,6 +364,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1131393087428131376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/HearBeat.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod/1/Build/Desktop/HearBeat.bank
+  Name: HearBeat
+  StudioPath: bank:/HearBeat
+  lastModified: 639054938739756038
+  FileSizes:
+  - Name: Desktop
+    Value: 49344
+  Exists: 1
 --- !u!114 &-1070596546059969903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,10 +446,10 @@ MonoBehaviour:
   Path: Assets/Fmod/1/Build/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 639044540214117294
+  lastModified: 639054937908388513
   FileSizes:
   - Name: Desktop
-    Value: 138944
+    Value: 90304
   Exists: 1
 --- !u!114 &-486715466393586492
 MonoBehaviour:
@@ -504,6 +524,7 @@ MonoBehaviour:
   - {fileID: 5452092922406833595}
   - {fileID: -611550764329861632}
   - {fileID: 3453568583595345133}
+  - {fileID: -1131393087428131376}
   EditorEvents:
   - {fileID: 3539621372629140251}
   - {fileID: -1765328091543373622}
@@ -531,7 +552,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8131444633951974013}
   cacheVersion: 131856
-  cacheTime: 639045337932884559
+  cacheTime: 639054941081380815
   SerializableEventsDict:
   - key: event:/Interactio/sfx_fire
     index: 0
@@ -592,7 +613,7 @@ MonoBehaviour:
     Data3: -1984973908
     Data4: 291900655
   Banks:
-  - {fileID: -611550764329861632}
+  - {fileID: -1131393087428131376}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -795,10 +816,10 @@ MonoBehaviour:
   Path: Assets/Fmod/1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639045332033256793
+  lastModified: 639054941081370799
   FileSizes:
   - Name: Desktop
-    Value: 9694
+    Value: 9930
   Exists: 1
 --- !u!114 &5834881065800729618
 MonoBehaviour:
